@@ -1,10 +1,10 @@
-import React, { Component } from "react"
-import { Link, graphql } from "gatsby"
-import Layout from "../components/layout"
-import { rhythm } from "../utils/typography"
+import React, { Component } from 'react'
+import { Link, graphql } from 'gatsby'
+import Layout from '../components/layout'
+import { rhythm } from '../utils/typography'
 
 class Home extends Component {
-  render() {
+  render () {
     const data = this.props.data
 
     return (
